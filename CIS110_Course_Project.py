@@ -27,7 +27,7 @@ while keepPlaying.lower() == "yes":
     while not number.isdigit():
         number = input(f"Value not recognized. Please enter a numeric value:  ")
 
-    #Story Starts
+    #Story Start
     print(f"\nLET'S GO!!!")
     print(f"\nOnce upon a time there was a beautiful {breed} named {dogName}. ")
     print(f"{dogName} always wanted to go outside and explore {city}. ")
